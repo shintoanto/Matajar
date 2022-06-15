@@ -16,11 +16,8 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
-
         setSupportActionBar(binding.appBarMain.toolbar)
-
         supportFragmentManager.findFragmentById(R.id.fragmentContainerView2) as NavHostFragment
-
 
     }
     override fun onCreateOptionsMenu(menu: Menu): Boolean {

@@ -38,10 +38,10 @@
 //
 //
 //        override fun onClick(v: View?) {
-//            val position =
-//            if (position != RecyclerView.NO_POSITION) {
-//                listener.onItemClick(position)
-//            }
+//          //  val position =
+////            if (position != RecyclerView.NO_POSITION) {
+////                listener.onItemClick(position)
+////            }
 //        }
 //
 //    }
